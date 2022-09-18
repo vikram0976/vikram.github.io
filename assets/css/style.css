@@ -1025,95 +1025,69 @@ button {
 }
 
 /* Typewriter Effect*/
+
+/* Typewriter Effect*/
 @keyframes typing {
 
   0.0000%,
-  40.3488% {
+  27.3488% {
     content: "";
   }
 
-  11.1395%,
-  36.2093% {
-    content: "Bac";
+  1.1395%,
+  26.2093% {
+    content: "Eng";
   }
 
-  12.2791%,
-  35.0698% {
-    content: "Back";
+  2.2791%,
+  25.0698% {
+    content: "Engineer";
   }
 
-  13.4186%,
-  33.9302% {
-    content: "Back-End";
+  3.4186%,
+  23.9302% {
+    content: "Engineering";
   }
 
-  14.8186%,
-  32.9302% {
-    content: "Back-End Dev";
-  }
-
-  15.8186%,
-  31.9302% {
-    content: "Back-End Devel";
-  }
-
-  16.4186%,
-  30.1302% {
-    content: "Back-End Develop";
-  }
-
-  17.4186%,
-  29.1302% {
-    content: "Back-End Developer";
-  }
-
-  /* 5.4186%,
-  21.1302% {
-    content: "Back-End Developer";
-  } */
-
-  /* 30.7674%,
+  30.7674%,
   51.2791% {
-    content: "Back-End Dev";
-  } */
-
-  /* 31.9070%,
-  50.1395% {
-    content: "Back-End Devel";
-  } */
-
-  /* 33.0465%,
-  49.0000% {
     content: "";
-  } */
+  }
 
-  /* 34.1860%,
+  31.9070%,
+  50.1395% {
+    content: "Fr";
+  }
+
+  33.0465%,
+  49.0000% {
+    content: "Fron";
+  }
+
+  34.1860%,
   47.8605% {
-     content: "";
-  } */
+    content: "Fronte";
+  }
 
-  /*
   35.3256%,
   46.7209% {
-    content: "En";
+    content: "Frontend D";
   }
 
   36.4651%,
   45.5814% {
-    content: "Entrepre";
+    content: "Frontend Deve";
   }
 
   37.6047%,
   44.4419% {
-    content: "Entrepreneur";
+    content: "Frontend Develop";
   }
 
   38.7443%,
   43.3023% {
-    content: "Entrepreneurship";
+    content: "Frontend Developer";
   }
-
-  */
 
   54.6977%,
   85.2093% {
@@ -1122,52 +1096,52 @@ button {
 
   55.8372%,
   84.0698% {
-    content: "E";
+    content: "Ja";
   }
 
   56.9767%,
   82.9302% {
-    content: "En";
+    content: "Java";
   }
 
   58.1163%,
   81.7907% {
-    content: "Eng";
+    content: "Java Ba";
   }
 
   59.2558%,
   80.6512% {
-    content: "Engi";
+    content: "Java Back";
   }
 
   60.3953%,
   79.5116% {
-    content: "Engin";
+    content: "Java Back-E";
   }
 
   61.5349%,
   78.3721% {
-    content: "Engine";
+    content: "Java Back-En";
   }
 
   62.6745%,
   77.2325% {
-    content: "Enginee";
+    content: "Java Back-End";
   }
 
   63.8141%,
   76.0929% {
-    content: "Engineer";
+    content: "Java Back-End De";
   }
 
   64.9537%,
   74.9533% {
-    content: "Engineeri";
+    content: "Java Back-End Develo";
   }
 
   66.0933%,
   73.8137% {
-    content: "Engineering";
+    content: "Java Back-End Developer";
   }
 }
 
