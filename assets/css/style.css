@@ -48,8 +48,42 @@
   --z-modal: 1000;
 }
 
+.stats{
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  gap: 20px;
+  margin-bottom: 2%;
+}
+.stats img{
+  width: 32%;
+}
+
+
+
+
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
+
+  .stats{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 20px;
+    margin-bottom: 2%;
+  }
+  .stats img{
+    width: 32%;
+  }
+  
+
+
+
+
   :root {
     --big-font-size: 3rem;
     --h1-font-size: 2.25rem;
@@ -221,6 +255,22 @@ button {
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }
+
+  .stats{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 20px;
+    margin-bottom: 2%;
+}
+.stats img{
+    width: 32%;
+}
+
+
+
 }
 
 .nav_list {
@@ -778,6 +828,22 @@ button {
 /* MEDIA QUERIES */
 /* For small devices */
 @media screen and (max-width: 350px) {
+
+  .stats{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 20px;
+    margin-bottom: 2%;
+  }
+  .stats img{
+    width: 32%;
+  }
+  
+
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -814,6 +880,22 @@ button {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+
+  .stats{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 20px;
+    margin-bottom: 2%;
+  }
+  .stats img{
+    width: 32%;
+  }
+  
+
+
   .home_content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -842,6 +924,23 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+
+  .stats{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 20px;
+    margin-bottom: 2%;
+  }
+  .stats img{
+    width: 32%;
+  }
+  
+
+
+
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -980,6 +1079,22 @@ button {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
+
+  .stats{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 20px;
+    margin-bottom: 2%;
+  }
+  .stats img{
+    width: 32%;
+  }
+  
+
+
 
   .header,
   .main,
@@ -1206,3 +1321,5 @@ button {
     animation: sequencePopup 12s linear infinite;
   }
 }
+
+
